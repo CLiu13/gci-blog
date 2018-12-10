@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}My GCI Experience | Repos{% endblock %}
+
+{% block navbar %}
+  <li><a href="/" accesskey="1" class="navbar">Home</a></li>
+  <li><a href="/tasks" accesskey="2" class="navbar">Tasks</a></li>
+  <li><a href="/mentors" accesskey="3" class="navbar">Mentors</a></li>
+  <li class="current_page_item"><a href="/repos" accesskey="4" title="">Repos</a></li>
+{% endblock %}
+
+{% block body %}
+  <div id="page" class="container">
+      <div id="content">
+        <div class="post">
+          <h1 class="title">Repos that I Worked On</h1>
+        </div>
+        {% for repo in repos %}
+          <div class="post">
+            <h2 class="title">{{ repo.name }}</h2>
+            <div style="clear: both;">&nbsp;</div>
+            <div class="entry">
+                <p><a href="{{ repo.host.url }}{{ repo.location }}">{{ repo.host.url }}{{ repo.location }}</a></p>
+                <p>{{ repo.description }}</p>
+                <br><br><br>
+                <p class="tags">
+                {% for language in repo.languages %}
+                    <a href="" class="tag">{{ language.name }}</a>
+                {% endfor %}
+                </p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+  </div>
+{% endblock %}

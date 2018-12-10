@@ -1,0 +1,6 @@
+name: corobo
+host: github
+location: coala/corobo
+description: A bot to help newcomers onboard OS projects! It's awesome!
+languages:
+  - python

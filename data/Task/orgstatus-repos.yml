@@ -1,0 +1,15 @@
+id: 13
+name: "org-status: Issue #6: Manage a machine consumable list of all org repositories"
+difficulty: low
+type:
+  - code
+repo: org-status
+issue: 6
+pr: 34
+mentors:
+  - ksdme
+  - jayvdb
+tags:
+  - python
+  - orgs
+  - cli

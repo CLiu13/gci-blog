@@ -1,0 +1,5 @@
+name: String
+host: Host
+location: String
+description: String
+languages: Language[]

@@ -1,0 +1,15 @@
+id: 9
+name: "coAST: Add a new language definition, from coalib"
+difficulty: medium
+type:
+  - code
+  - documentation
+repo: coAST
+pr: 9
+mentors:
+  - jayvdb
+tags:
+  - languages
+  - yaml
+  - static-website
+  - syntax

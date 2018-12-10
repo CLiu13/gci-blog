@@ -1,0 +1,18 @@
+id: 2
+name: "coala: Issue #5824: Add language definition for TinyBasic"
+difficulty: medium
+type:
+  - code
+  - documentation
+repo: coala
+issue: 5824
+pr: 5851
+mentors:
+  - man-jain
+  - pareksha
+  - jayvdb
+tags:
+  - languages
+  - antlr
+  - tinybasic
+  - python

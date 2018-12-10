@@ -1,0 +1,16 @@
+id: 18
+name: "bears: Issue #2770: ESLintBear: Remove use of generic no cover"
+difficulty: low
+type:
+  - code
+  - qa
+repo: coala-bears
+issue: 2770
+pr: 2804
+mentors:
+  - jayvdb
+  - sangamcse
+tags:
+  - unittest
+  - javascript
+  - mock

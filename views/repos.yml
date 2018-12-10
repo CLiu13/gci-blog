@@ -1,0 +1,5 @@
+path: /repos
+template: repos.html
+context:
+  dynamic:
+    repos: session.query(Repo).order_by(Repo.name).all()

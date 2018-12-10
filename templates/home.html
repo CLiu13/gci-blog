@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}My GCI Experience | Home{% endblock %}
+
+{% block navbar %}
+  <li class="current_page_item"><a href="/" accesskey="1" title="">Home</a></li>
+  <li><a href="/tasks" accesskey="2" class="navbar">Tasks</a></li>
+  <li><a href="/mentors" accesskey="3" class="navbar">Mentors</a></li>
+  <li><a href="/repos" accesskey="4" class="navbar">Repos</a></li>
+{% endblock %}
+
+{% block body %}
+  <div id="page" class="container">
+      <div id="content">
+        <div class="post">
+          <h1 class="title">50 Unforgettable Days of Google Code-in</h1>
+          <h4>Time flies when you are having fun!</h4>
+        </div>
+        {% for post in posts %}
+          <div class="post">
+            <h2 class="title">{{ post.title }}</h2>
+            <p class="meta"><span class="date">December 10, 2018</span><span class="posted">Posted by <a href="https://github.com/CLiu13">CLiu13</a></span></p>
+            <div style="clear: both;">&nbsp;</div>
+            <div class="entry">
+              {{ post.content }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+  </div>
+{% endblock %}

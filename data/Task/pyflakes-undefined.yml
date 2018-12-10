@@ -1,0 +1,13 @@
+id: 7
+name: "pyflakes: Issue #280: Unreported undefined name in __all__"
+difficulty: medium
+type:
+  - code
+repo: pyflakes
+issue: 280
+pr: 385
+mentors:
+  - jayvdb
+tags:
+  - ast
+  - python

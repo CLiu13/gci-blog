@@ -1,0 +1,13 @@
+id: 4
+name: "pyflakes: Issue #349: In python 3.6 unused variables in f-strings show line number 1"
+difficulty: medium
+type:
+  - code
+repo: pyflakes
+issue: 349
+solution: https://github.com/PyCQA/pyflakes/issues/349#issuecomment-434127354
+mentors:
+  - jayvdb
+tags:
+  - ast
+  - python

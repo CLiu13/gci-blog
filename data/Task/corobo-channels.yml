@@ -1,0 +1,15 @@
+id: 1
+name: "corobo: Issue #412: Update the default channel list"
+difficulty: low
+type:
+  - code
+repo: corobo
+issue: 412
+pr: 634
+mentors:
+  - jayvdb
+  - vamshi99
+tags:
+  - errbot
+  - chatops
+  - python

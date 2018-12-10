@@ -1,0 +1,6 @@
+name: statik
+host: github
+location: thanethomson/statik
+description: Multi-purpose static web site generator aimed at developers.
+languages:
+  - python

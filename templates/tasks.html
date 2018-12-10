@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}My GCI Experience | Tasks{% endblock %}
+
+{% block navbar %}
+  <li><a href="/" accesskey="1" class="navbar">Home</a></li>
+  <li class="current_page_item"><a href="/tasks" accesskey="2" title="">Tasks</a></li>
+  <li><a href="/mentors" accesskey="3" class="navbar">Mentors</a></li>
+  <li><a href="/repos" accesskey="4" class="navbar">Repos</a></li>
+{% endblock %}
+
+{% block body %}
+  <div id="page" class="container">
+      <div id="content">
+        <div class="post">
+          <h1 class="title">Tasks that I Completed</h1>
+          <h4>Quality over quantity!</h4>
+        </div>
+        {% for task in tasks %}
+          <div class="post">
+            <h2 class="title">{{ task.name }}</h2>
+            <div style="clear: both;">&nbsp;</div>
+            <div class="entry">
+              <p><b>Difficulty:</b> {{ task.difficulty.name }}</p>
+              <p><b>Type:</b></p>
+              <ul>
+              {% for type in task.type %}
+                <li>{{ type.name }}</li>
+              {% endfor %}
+              </ul>
+              {% if task.issue %}
+                <p><b>Issue:</b> <a href="{{ task.repo.host.url }}{{ task.repo.location }}/issues/{{ task.issue}}">{{ task.repo.name }}#{{ task.issue }}</a></p>
+              {% else %}
+                <p><b>Issue:</b> N/A</p>
+              {% endif %}
+              {% if task.pr %}
+                <p><b>PR:</b> <a href="{{ task.repo.host.url }}{{ task.repo.location }}{{ task.repo.host.pr }}{{ task.pr}}">{{ task.repo.name }}#{{ task.pr }}</a></p>
+              {% elif task.solution %}
+                <p><b>Solution:</b> <a href="{{ task.solution }}">{{ task.solution }}</a></p>
+              {% else %}
+                <p><b>PR:</b> N/A</p>
+              {% endif %}
+              <p><b>Mentors:</b></p>
+              <ul>
+              {% for mentor in task.mentors %}
+                <li>{{ mentor.name }}</li>
+              {% endfor %}
+              </ul>
+              <br><br><br>
+              <p class="tags">
+              {% for tag in task.tags %}
+                  <a href="" class="tag">{{ tag.name }}</a>
+              {% endfor %}
+              </p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,5 @@
+project-name: CLiu13's GCI Blog
+base-path: /
+context:
+  static:
+    title: My Google Code-in Experience

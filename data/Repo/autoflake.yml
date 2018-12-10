@@ -1,0 +1,6 @@
+name: autoflake
+host: github
+location: myint/autoflake
+description: Removes unused imports and unused variables as reported by pyflakes.
+languages:
+  - python

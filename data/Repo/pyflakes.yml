@@ -1,0 +1,6 @@
+name: pyflakes
+host: github
+location: pycqa/pyflakes
+description: A simple program which checks Python source files for errors.
+languages:
+  - python

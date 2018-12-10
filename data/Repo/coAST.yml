@@ -1,0 +1,7 @@
+name: coAST
+host: github
+location: coala/coAST
+description: Universal and language-independent abstract syntax tree.
+languages:
+  - css
+  - html

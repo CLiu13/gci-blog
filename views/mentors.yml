@@ -1,0 +1,5 @@
+path: /mentors
+template: mentors.html
+context:
+  dynamic:
+    mentors: session.query(Mentor).order_by(Mentor.name).all()

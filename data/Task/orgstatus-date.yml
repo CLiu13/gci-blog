@@ -1,0 +1,15 @@
+id: 14
+name: "org-status: Issue #7: Clone every repo and report the last commit date"
+difficulty: medium
+type:
+  - code
+repo: org-status
+issue: 7
+pr: 37
+mentors:
+  - ksdme
+  - jayvdb
+tags:
+  - python
+  - git
+  - cli

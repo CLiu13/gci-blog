@@ -1,0 +1,10 @@
+id: Integer
+name: String
+difficulty: Difficulty
+type: Type[]
+repo: Repo
+issue: Integer
+pr: Integer
+solution: String
+mentors: Mentor[]
+tags: Tag[]

@@ -1,0 +1,7 @@
+name: mobans
+host: gitlab
+location: coala/mobans
+description: coala-mobans is a collection of useful templates that are mainly used by coala to have standardized configuration over all of the coala repositories.
+languages:
+  - python
+  - css

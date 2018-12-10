@@ -1,0 +1,13 @@
+id: 3
+name: "autoflake: Issue #35: Don't remove imports from __init__.py"
+difficulty: medium
+type:
+  - code
+repo: autoflake
+issue: 35
+pr: 42
+mentors:
+  - jayvdb
+tags:
+  - ast
+  - python

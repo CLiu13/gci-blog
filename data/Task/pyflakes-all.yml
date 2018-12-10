@@ -1,0 +1,13 @@
+id: 5
+name: "pyflakes: Issue #276: Incorrect F401/F822 results when `__all__` is defined from concatenated lists"
+difficulty: medium
+type:
+  - code
+repo: pyflakes
+issue: 276
+pr: 382
+mentors:
+  - jayvdb
+tags:
+  - ast
+  - python

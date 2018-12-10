@@ -1,0 +1,15 @@
+id: 15
+name: "statik: Issue #76: Default list value order should be the order in the yaml"
+difficulty: medium
+type:
+  - code
+repo: statik
+issue: 76
+pr: 93
+mentors:
+  - jayvdb
+tags:
+  - yaml
+  - sqlalchemy
+  - python
+  - static-website

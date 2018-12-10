@@ -1,0 +1,5 @@
+path: /tasks
+template: tasks.html
+context:
+  dynamic:
+    tasks: session.query(Task).order_by(Task.id.desc()).all()

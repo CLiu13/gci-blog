@@ -1,0 +1,6 @@
+name: coala
+host: github
+location: coala/coala
+description: coala provides a unified command-line interface for linting and fixing all your code, regardless of the programming languages you use.
+languages:
+  - python

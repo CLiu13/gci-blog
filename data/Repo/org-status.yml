@@ -1,0 +1,6 @@
+name: org-status
+host: github
+location: ksdme/org-status
+description: A tool to check Travis build status of all the repo's under an organisation.
+languages:
+  - python

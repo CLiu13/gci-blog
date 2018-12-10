@@ -1,0 +1,16 @@
+id: 12
+name: "moban: Issue #29: Template variables for target and template"
+difficulty: medium
+type:
+  - code
+repo: moban
+issue: 29
+pr: 125
+mentors:
+  - jayvdb
+  - prajwalm2212
+  - chfw
+tags:
+  - templates
+  - yaml
+  - python

@@ -1,0 +1,6 @@
+name: meta
+host: github
+location: coala/meta
+description: A repository for non-code activities, such as engagement initiatives, and other meta issues.
+languages:
+  - none

@@ -1,0 +1,14 @@
+id: 6
+name: "meta: Issue #64: Improve .coafile on travis-ci/docs-travis-ci-com"
+difficulty: low
+type:
+  - code
+repo: meta
+issue: 64
+solution: https://github.com/CLiu13/docs-travis-ci-com/tree/improved-coafile
+mentors:
+  - jayvdb
+tags:
+  - coafile
+  - linting
+  - python

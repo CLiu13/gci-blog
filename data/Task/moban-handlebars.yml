@@ -1,0 +1,16 @@
+id: 10
+name: "moban: Issue #44: Template type: Handlebars"
+difficulty: high
+type:
+  - code
+repo: moban
+issue: 44
+pr: 118
+mentors:
+  - prajwalm2212
+  - chfw
+tags:
+  - templates
+  - yaml
+  - handlebars
+  - python

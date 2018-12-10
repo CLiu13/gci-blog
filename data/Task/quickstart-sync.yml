@@ -1,0 +1,17 @@
+id: 16
+name: "It's moban repo sync time!"
+difficulty: low
+type:
+  - code
+  - qa
+repo: coala-quickstart
+pr: 329
+mentors:
+  - jayvdb
+  - ayan-b
+tags:
+  - python
+  - yaml
+  - continuous-integration
+  - moban
+  - configuration-management

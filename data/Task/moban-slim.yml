@@ -1,0 +1,16 @@
+id: 17
+name: "moban: Issue #54: Template type: Slim"
+difficulty: high
+type:
+  - code
+repo: moban
+issue: 54
+solution: https://github.com/CLiu13/moban-slim
+mentors:
+  - prajwalm2212
+  - jayvdb
+tags:
+  - templates
+  - yaml
+  - slim
+  - python

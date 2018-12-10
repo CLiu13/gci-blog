@@ -1,0 +1,14 @@
+id: 19
+name: "bears: Add Windows coverage exceptions to reach 100% coverage on AppVeyor"
+difficulty: low
+type:
+  - code
+  - qa
+repo: coala-bears
+issue: 1415
+pr: 2813
+mentors:
+  - jayvdb
+tags:
+  - unittest
+  - coverage

@@ -1,0 +1,14 @@
+id: 11
+name: "autopep8: Issue #227: Create diff for a specific pep8 issue"
+difficulty: medium
+type:
+  - code
+repo: autopep8
+issue: 227
+pr: 452
+mentors:
+  - jayvdb
+tags:
+  - diff
+  - python
+  - syntax

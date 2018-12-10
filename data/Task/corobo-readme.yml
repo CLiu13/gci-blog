@@ -1,0 +1,15 @@
+id: 0
+name: "corobo: Issue #367: Update README.md to say BOT_ADMINS is space separated list"
+difficulty: beginner
+type:
+  - documentation
+repo: corobo
+issue: 367
+pr: 631
+mentors:
+  - naveenaidu
+tags:
+  - git
+  - errbot
+  - markdown
+  - chatops

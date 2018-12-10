@@ -1,0 +1,6 @@
+name: coala-quickstart
+host: github
+location: coala/coala-quickstart
+description: A tool that generates an initial coala config file for you!
+languages:
+  - python

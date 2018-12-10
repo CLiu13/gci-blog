@@ -1,0 +1,15 @@
+id: 8
+name: "mobans: Issue #2: Create .editorconfig template"
+difficulty: low
+type:
+  - code
+repo: mobans
+issue: 2
+pr: 11
+mentors:
+  - jayvdb
+tags:
+  - yaml
+  - jinja
+  - moban
+  - editorconfig

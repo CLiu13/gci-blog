@@ -1,0 +1,6 @@
+name: coala-bears
+host: github
+location: coala/coala-bears
+description: Bears for coala.
+languages:
+  - python

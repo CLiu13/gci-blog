@@ -1,0 +1,5 @@
+path: /
+template: home.html
+context:
+  dynamic:
+    posts: session.query(Post).order_by(Post.id.asc()).all()

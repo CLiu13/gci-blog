@@ -1,0 +1,6 @@
+name: moban
+host: github
+location: moremoban/moban
+description: Yet another jinja2 cli command for static text generation.
+languages:
+  - python
