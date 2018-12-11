@@ -313,7 +313,8 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #header
 {
     position: relative;
-    padding: 3em 0em;
+    padding: 2em 0em;
+    margin-top: 2em;
 }
 
 /*********************************************************************************/
